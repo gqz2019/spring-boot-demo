@@ -1,0 +1,26 @@
+person:
+  name: 你大爷
+  age: 4
+  sex: 男
+
+#  spring配置
+spring:
+  mvc:
+    format:
+      date-time: yyyy-MM-dd HH:mm:ss
+  profiles:
+    active:
+
+logging:
+  charset:
+    console: utf-8
+  level:
+    root: debug
+    org:
+      springframework:
+        boot:
+          autoconfigure: error
+
+server:
+  port: 8081
+
